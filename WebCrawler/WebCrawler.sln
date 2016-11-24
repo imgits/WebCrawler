@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler", "WebCrawler\WebCrawler.csproj", "{BF0F17B8-17C2-4515-8C0A-F62ED2E74F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPClientThread", "..\HTTPClientThread\HTTPClientThread.csproj", "{30E2DB5D-339B-4372-A8CA-7FC096ADE170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleScraperClient", "..\SampleScraperClient\SampleScraperClient\SampleScraperClient.csproj", "{18C16DD4-4587-4483-A19D-366F86854452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleServer", "..\SampleServer\SampleServer\SampleServer.csproj", "{552CF5C3-17FF-4682-9796-8841F93FBAAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSimpleApp", "..\MVCSimpleServerApp\MVCSimpleApp\MVCSimpleApp.csproj", "{D63A4F5C-2653-4EE5-BA91-6C18CEE0846F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0F17B8-17C2-4515-8C0A-F62ED2E74F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0F17B8-17C2-4515-8C0A-F62ED2E74F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0F17B8-17C2-4515-8C0A-F62ED2E74F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0F17B8-17C2-4515-8C0A-F62ED2E74F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E2DB5D-339B-4372-A8CA-7FC096ADE170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E2DB5D-339B-4372-A8CA-7FC096ADE170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E2DB5D-339B-4372-A8CA-7FC096ADE170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E2DB5D-339B-4372-A8CA-7FC096ADE170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C16DD4-4587-4483-A19D-366F86854452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C16DD4-4587-4483-A19D-366F86854452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C16DD4-4587-4483-A19D-366F86854452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C16DD4-4587-4483-A19D-366F86854452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552CF5C3-17FF-4682-9796-8841F93FBAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552CF5C3-17FF-4682-9796-8841F93FBAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552CF5C3-17FF-4682-9796-8841F93FBAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552CF5C3-17FF-4682-9796-8841F93FBAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63A4F5C-2653-4EE5-BA91-6C18CEE0846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63A4F5C-2653-4EE5-BA91-6C18CEE0846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63A4F5C-2653-4EE5-BA91-6C18CEE0846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63A4F5C-2653-4EE5-BA91-6C18CEE0846F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
